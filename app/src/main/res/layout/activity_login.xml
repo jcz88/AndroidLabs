@@ -41,4 +41,10 @@
         android:layout_height="wrap_content"
         android:src="@drawable/flag" />
 
+    <Button
+        android:id="@+id/button-login"
+        android:text="@string/login_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
