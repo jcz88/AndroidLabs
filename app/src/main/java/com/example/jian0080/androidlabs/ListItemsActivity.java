@@ -22,7 +22,8 @@ public class ListItemsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_items);
-        ImageButton cameraImage =  findViewById(R.id.imageButton);
+
+        ImageButton cameraImage = (ImageButton) findViewById(R.id.imageButton);
         cameraImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,7 +34,7 @@ public class ListItemsActivity extends Activity {
 
             }
         });
-        Switch sw = findViewById(R.id.switch2);
+        Switch sw = (Switch) findViewById(R.id.switch2);
         sw.setOnCheckedChangeListener(new Switch.OnCheckedChangeListener()
         {
             @Override
@@ -45,7 +46,7 @@ public class ListItemsActivity extends Activity {
                 }
             }
         });
-        CheckBox cb = findViewById(R.id.checkBox2);
+        CheckBox cb = (CheckBox) findViewById(R.id.checkBox2);
         cb.setOnCheckedChangeListener(new Switch.OnCheckedChangeListener()
         {
             @Override
@@ -81,7 +82,7 @@ public class ListItemsActivity extends Activity {
                 Bitmap imageBitmap = (Bitmap) extras.get("data");
                 ImageButton cameraImage = findViewById(R.id.imageButton);
                 cameraImage.setImageBitmap(imageBitmap);
-            } catch (NullPointerException e){}
+            } catch (NullPointerException e){System.out.println("Exception thrown");}
         }
     }
     @Override

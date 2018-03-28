@@ -45,8 +45,8 @@ public class ChatWindowActivity extends Activity {
 
         final ContentValues cValues = new ContentValues();
 
-        textMsg = findViewById(text_message);
-        Button sendBtn = findViewById(btn_send);
+        textMsg = (EditText) findViewById(text_message);
+        Button sendBtn = (Button) findViewById(btn_send);
         inflater = ChatWindowActivity.this.getLayoutInflater();
         chatMsg = new ArrayList<>();
         messageAdapter = new ChatAdapter(this);
@@ -61,7 +61,7 @@ public class ChatWindowActivity extends Activity {
             }
         });
 
-        listView = findViewById(list_view);
+        listView = (ListView)findViewById(list_view);
 
         listView.setAdapter(messageAdapter);
 
