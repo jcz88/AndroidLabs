@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Labs</string>
+    <string name="hello_message">Hello World!</string>
+    <string name="ButtonText">I\'m a button</string>
+    <string name="login_message">Login</string>
+    <string name="login_hint">login name</string>
+    <string name="password_message">password</string>
+    <string name="password_hint">password</string>
+    <string name="RadioButtonText">RadioButton</string>
+    <string name="CheckBoxText">CheckBox</string>
+    <string name="SwichtText">What does this do?</string>
+    <string name="ImageButton_description">this is a camera image</string>
+    <string name="ImageView_description">this is a flag of the selected country</string>
+    <string name="preference_email_file">EMAIL_FILE</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="dialog_title">Quit?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="swich_on">Swich is on</string>
+    <string name="swich_off">Swich is off</string>
+    <string name="title_activity_empty">EmptyActivity</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="new_text">New Text</string>
+    <string name="btn_send">Send</string>
+    <string name="text_message_hint">Text Message</string>
+    <string name="text_current_temp">Current Temperature</string>
+    <string name="text_max_temp">Maximum</string>
+    <string name="text_min_temp">Minimum</string>
+</resources>

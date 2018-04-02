@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab 1</string>
+    <string name="hello_message">世界你好!</string>
+    <string name="ButtonText">我是按钮</string>
+    <string name="login_message">登录</string>
+    <string name="login_hint">请输入登录名</string>
+    <string name="password_message">密码</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="RadioButtonText">单选按钮</string>
+    <string name="CheckBoxText">复选框</string>
+    <string name="SwichtText">这个做什么?</string>
+    <string name="ImageButton_description">照相机图标</string>
+    <string name="ImageView_description">所选国家的国旗</string>
+    <string name="preference_email_file">EMAIL_FILE</string>
+    <string name="dialog_message">您想结束并退出吗?</string>
+    <string name="dialog_title">退出?</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="swich_on">开关打开</string>
+    <string name="swich_off">开关关闭</string>
+    <string name="btn_send">发送</string>
+    <string name="new_text">新消息</string>
+    <string name="start_chat">开始聊天</string>
+</resources>
